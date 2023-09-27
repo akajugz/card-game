@@ -44,7 +44,7 @@ public class Snap extends CardGame{
 
                         if (timeDifference < 2000) {
                             System.out.println("Snap! " + (player1Turn ? player1.getName() : player2.getName()) +
-                                    " wins this round!" + previousCard + " matches " + currentCard);
+                                    " wins this round! " + previousCard + " matches " + currentCard);
                             if (player1Turn) {
                                 player2.setLost(true);
                             } else {
